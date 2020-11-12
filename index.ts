@@ -40,10 +40,6 @@ const developer = new Developer(
   language => console.log(language + " is the best language")
 );
 
-window.addEventListener("load", onLoad);
-
-function onLoad() {
-  developer.myNameIs();
-  developer.saySomething("algo");
-  developer.bestLanguage("Javascript");
-}
+developer.myNameIs();
+developer.saySomething("algo");
+developer.bestLanguage("Javascript");
